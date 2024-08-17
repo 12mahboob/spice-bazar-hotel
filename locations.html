@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary Meta Tags -->
+  <title>Spice Bazar - Amazing & Delicious Food</title>
+  <meta name="title" content="spicebazar - Amazing & Delicious Food">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- Google Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS Link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+  <!-- Ionicon Scripts -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@latest/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@latest/dist/ionic/ionic.js"></script>
+</head>
+
+<body id="top">
+
+  <!-- Preloader -->
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Spice Bazar</p>
+  </div>
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container">
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">58 MB, Main Boulevard, Sector H, Phase 6, DHA, Lahore.</span>
+      </address>
+      <div class="separator"></div>
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">Daily : 12.00 am to 10.00 pm</span>
+      </div>
+      <a href="tel:+92-311-1122103" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">+92-311-1122103</span>
+      </a>
+      <div class="separator"></div>
+      <a href="tel:+92-311-1122103" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">spicebazar@gmail.com</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+              <span class="span">Home</span>
+            </a>
+          </li>
+          <li class="navbar-item">
+            <a href="menu.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Our Menu</span>
+            </a>
+          </li>
+          <li class="navbar-item dropdown">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Buffets <i class="arrow up"></i></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item"><a href="hi-tea.html" class="hover-underline">Hi Tea</a></li>
+              <li class="dropdown-item"><a href="Sunday-branch.html" class="hover-underline">Sunday Branch</a></li>
+            </ul>
+          </li>
+          <li class="navbar-item">
+            <a href="Discounts.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Bank Discounts</span>
+            </a>
+          </li>
+          <li class="navbar-item dropdown">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Contact <i class="arrow up"></i></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item"><a href="locations.html" class="hover-underline">Locations</a></li>
+              <li class="dropdown-item"><a href="complaints.html" class="hover-underline">Complaints & Feedback</a></li>
+              <li class="dropdown-item"><a href="Careers.html" class="hover-underline">Careers</a></li>
+              <li class="dropdown-item"><a href="History.html" class="hover-underline">Our History</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+          <address class="body-4">
+            58 MB, Main Boulevard, Sector H, <br>
+            Phase 6, DHA, Lahore.
+          </address>
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+          <a href="mailto:ulhasan357@gmail.com" class="body-4 sidebar-link">spicebazar@gmail.com</a>
+          <div class="separator"></div>
+          <p class="contact-label">Booking Request</p>
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +92-311-1122103
+          </a>
+        </div>
+      </nav>
+
+      <a href="index.html" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+  <!-- Styles for Location Section -->
+  <style>
+    .location-section {
+      padding: 50px 0;
+      background-color: rgba(60, 60, 68, 0.719);
+      margin: 20px;
+    }
+
+    .location-card {
+      display: flex;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 8px rgba(61, 61, 61, 0.404);
+      background: #fff;
+      flex-wrap: wrap;
+    }
+
+    .map {
+      max-width: 600px;
+      width: 100%;
+      height: 450px;
+    }
+
+    .contact-details {
+      padding: 20px;
+      flex: 1 1 100%;
+      max-width: 600px;
+    }
+
+    .contact-details h1,
+    .contact-details h4,
+    .contact-details p {
+      margin: 10px 0;
+    }
+
+    .contact-details h1 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .contact-details h4 {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .contact-details p {
+      font-size: 16px;
+      color: #777;
+    }
+
+    @media (max-width: 768px) {
+      .location-card {
+        flex-direction: column;
+      }
+
+      .map {
+        height: 300px;
+      }
+
+      .contact-details {
+        margin-top: 300px;
+        padding: 10px;
+      }
+
+      .contact-details h1 {
+        font-size: 20px;
+      }
+
+      .contact-details h4 {
+        font-size: 16px;
+      }
+
+      .contact-details p {
+        font-size: 14px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .location-card {
+        flex-direction: column;
+      }
+
+      .map {
+        height: 200px;
+      }
+
+      .contact-details {
+        margin-top: 300px;
+
+        padding: 5px;
+      }
+
+      .contact-details h1 {
+        font-size: 18px;
+      }
+
+      .contact-details h4 {
+        font-size: 14px;
+      }
+
+      .contact-details p {
+        font-size: 12px;
+      }
+    }
+  </style>
+
+  <div class="clear" style="margin-top: 180px; height: 20px; width: 100%;"></div>
+  <section class="location-section">
+    <div class="location-card">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6805.516769335202!2d74.446297!3d31.475832000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391909514b400579%3A0x13df3f3e9ebc626c!2sSpice%20Bazaar!5e0!3m2!1sen!2sus!4v1722798660177!5m2!1sen!2sus"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contact-details">
+        <h1>Contact Details of Spice Bazaar Phase 6, DHA</h1>
+        <h4>Location</h4>
+        <p>58 MB, Main Boulevard, Sector H, Phase 6, DHA, Lahore</p>
+        <h4>Phone Number</h4>
+        <p>+92-311-1122103, 042-37180681</p>
+      </div>
+    </div>
+
+    <div class="location-card">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.18605319297!2d74.35301294977491!3d31.51904955427148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391903f5e9e67a6b%3A0xe6a1c12b46af8f23!2sSpice%20Bazaar%20MM%20Alam%20Road!5e0!3m2!1sen!2s!4v1722798721067!5m2!1sen!2s"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contact-details">
+        <h1>Contact Details of Spice Bazaar MM Alam Road, Lahore</h1>
+        <h4>Location</h4>
+        <p>57 MM Alam Road, Block B1, Gulberg III, Lahore</p>
+        <h4>Phone Number</h4>
+        <p>+92-311-1122103</p>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+
+          </address>
+
+          <a href="mailto:spicebazar@gmail.com" class="body-4 contact-link">spicebazar@gmail.com</a>
+          <a href="tel:+92-311-1122103" class="body-4 contact-link">Booking Request : +92-311-1122103</a>
+
+          <p class="body-4">
+            Open : 09:00 am - 01:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Subscribe us & Get <span class="span">25% Off.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="menu.html" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="locations.html" class="label-2 footer-link hover-underline">location</a>
+          </li>
+
+          <li>
+            <a href="complaints.html" class="label-2 footer-link hover-underline">complaints</a>
+          </li>
+
+          <li>
+            <a href="History.html" class="label-2 footer-link hover-underline">History</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2024 Spice Bazar All rights reserved. <a href="#" target="_blank" class="link">Goto the
+            Github</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+  <!-- Custom JS Link -->
+  <script src="./assets/js/script.js"></script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
